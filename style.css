@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #a8c6c6;
+    color: #353535;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+img {
+    width: 99%;
+    display: block;
+    margin: auto;
+    padding: 3px;
+}
+
+#foto {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #c4c0ef;
+    padding: 3px;
+    background-color: white;
+}
+
+#foto>p {
+    font-size: 15px;
+    margin: 10px 50px;
+    letter-spacing: -0.4px;
+}
+
+section {
+    padding-bottom: 30px;
+    background-color: #dddde6;
+    width: 80%;
+    margin: auto;
+}
+
+#list {
+    margin: 40px 200px 0 200px;
+}
+#list>p {
+    font-size: 22px
+}
+
+.bolded {
+    font-weight: 900;
+}
+
+ul {
+    font-size: 14px;
+}
+
+#quotation {
+    padding: 10px 20px 20px 20px;
+    color: #000;
+    font-size: 20px;
+}
+
+#signature {
+    padding-top: 20px;
+    font-size: 16px;
+    font-style: italic;
+    color: dimgrey;
+}
+
+#end {
+    font-size: 22px;
+    padding-bottom: 50px;
+}
+
+a:link {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:active {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(102, 102, 165);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: darkslategrey;
+    color: whitesmoke;
+    padding: 20px 0 10px;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin: auto;
+    font-size: 14px;
+
+}
