@@ -51,7 +51,7 @@ section {
 }
 
 #list {
-    margin: 40px 200px 0 200px;
+    margin: 40px 10% 0 10%;
 }
 #list>p {
     font-size: 22px
@@ -66,7 +66,7 @@ ul {
 }
 
 #quotation {
-    padding: 10px 20px 20px 20px;
+    padding: 10px 0 20px 0;
     color: #000;
     font-size: 20px;
 }
@@ -112,5 +112,10 @@ footer {
     display: block;
     margin: auto;
     font-size: 14px;
+}
 
+@media all and (max-width:500px) {
+    #foter {
+        display: none;
+    }
 }
